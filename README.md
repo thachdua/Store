@@ -1,0 +1,1 @@
+# Average-closing-price-of-equity-market-value-of-the-selected-companies
