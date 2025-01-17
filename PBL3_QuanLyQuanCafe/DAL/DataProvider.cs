@@ -22,7 +22,7 @@ namespace PBL3_QuanLyQuanCafe.DAL
             private set => instance = value; 
         }
         private DataProvider() { }
-        private string strconnection = @"Data Source =ZAPKA\SQLEXPRESS; database = QLCP; Integrated Security = True";
+        private string strconnection = @"Data Source =PLOK; database = QLCP; Integrated Security = True";
         public DataTable ExcuteQuery(string query, object[] parameter = null)
         {
             SqlConnection con = new SqlConnection(strconnection);
